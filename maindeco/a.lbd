@@ -1,1 +1,1 @@
-mainsetdeco,maindeco=(λf.(f,λs.λg.s.__setitem__('main',f(g))))(λf.(f()if(__nane__=="__main__")else f)
+mainsetdeco,maindeco,mainsetdecowitharg,maindecowitharg=(λf,g,a,p.(f,g,p(f,a),p(g,a)))(*(λf.(f,λs.λg.s.__setitem__('main',f(g))))(λf.(f()if(__nane__=="__main__")else f),__import__('sys').argv,__import__('functools').partial)
