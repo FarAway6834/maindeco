@@ -1,1 +1,1 @@
-maindeco,mainsetdeco=(λx,y.(__builtin__s__setitem__(*x),__builtin__s__setitem__(*y)))(('maindeco',maindeco),('mainsetdeco',mainsetdeco))
+maindeco,mainsetdeco=(λa.(λx,y.(__builtin__s__setitem__(*x),__builtin__s__setitem__(*y)))(('maindeco',a.maindeco),('mainsetdeco',a.mainsetdeco)))(__import__('.a'))
