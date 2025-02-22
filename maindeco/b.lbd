@@ -1,0 +1,1 @@
+maindeco,mainsetdeco=(λx,y.(__builtin__s__setitem__(*x),__builtin__s__setitem__(*y)))(('maindeco',maindeco),('mainsetdeco',mainsetdeco))
